@@ -7,7 +7,10 @@ Faça um programa que pegue a quantidade de cada fruta comprada e retorne o valo
 
 public class AulaAnterior {
     public static void main(String[] args) {
-        // Escreva o código abaixo
-        
+        double abacaxi = 7.30;
+        double maca = 2;
+        double pera = 3;
+        double soma = abacaxi + maca + pera;
+        System.out.print("O valor total da compra é" + soma);
     }
 }
